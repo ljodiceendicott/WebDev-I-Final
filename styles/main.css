@@ -19,14 +19,15 @@ html {
 
 body {
 	position: relative;
-	background: white;
 	font-family:Arial, Helvetica, sans-serif;
+	background: linear-gradient(to bottom, #000000 0%, #474747 50%,#000000 80%);
 	font-size: 100%;
 	max-width: 1300px;
 	min-height: 100%;
 	margin: 0 auto;
 	box-shadow: -5px -5px 15px 5px rgb(59, 58, 58);
 	border-radius: 10px;
+	color:white; 
 }
 body h1 {
 	margin: .5em .75em;
@@ -43,9 +44,6 @@ a:focus, a:hover {
 
 
 /* the styles for the header */
-header {
-	background-color:white;
-}
 header img {
 	padding: 0 1em 0 0;
 	float: left;
@@ -98,7 +96,7 @@ header p{
 }
 #nav_menu a:hover {
 	background-color: #00FF00;
-	color: black;
+	color: white;
 }
 
 #nav_menu ul ul {
@@ -128,6 +126,7 @@ header p{
 /* the styles for the main content */
 main {
 	clear: left;
+	
 }
 
 main h2{
@@ -145,6 +144,9 @@ section {
 	width: 70%;
 	float: right;
 	padding: 0 2.5% 20px 2.5%;
+}
+section a{
+	color:white;
 }
 section a:hover{
 	font-weight: bold;
@@ -182,7 +184,7 @@ aside {
 	font-weight: bold;
 }
 aside a{
-	color:black;
+	color:white;
 }
 
 aside img{
