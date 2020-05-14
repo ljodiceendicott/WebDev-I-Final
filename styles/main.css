@@ -33,7 +33,9 @@ body h1 {
 	margin: .5em .75em;
 	text-align: center;
 }
-
+h2 a{
+	color:white;
+}
 /* the styles for links */
 a:link, a:visited {
 	text-decoration: none;
@@ -135,8 +137,8 @@ main h2{
 }
 
 #lyrics {
-	padding:0 2em;
-	font-size: 2em;
+	padding:2em 7em;
+	font-size: 1.25em;
 }
 
 /* the styles for the section */
@@ -186,23 +188,27 @@ aside {
 aside a{
 	color:white;
 }
+aside p{
+	text-align: center;
+}
 
 aside img{
-	max-width: 300px;
+	width:100%;
 	float:none;
+	padding-bottom:1em;
 }
 aside h4{
 	text-align: center;
 }
 aside iframe{
 	height:10%;
-	width:75%;
+	width:100%;
+	padding-bottom: 6px;
 }
 #bottombuffer {
 	height: 100px;
 	padding-bottom: 100px;
 }
-
 /* the styles for the footer */
 footer {
 	background-color: black;
@@ -235,6 +241,7 @@ footer p {
 	margin-left:0px;
 	}
 }
+
 
 /* tablet portrait to standard 960 */
 @media only screen and (max-width: 959px) {
@@ -277,8 +284,6 @@ footer p {
 		background-color: #228B22 !important;
 	}
 }
-
-
 
 /* mobile portrait to mobile landscape */
 @media only screen and (max-width: 479px) {
